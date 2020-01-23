@@ -1,0 +1,64 @@
+.App {
+  padding: 20px;
+}
+.anticon {
+    vertical-align: 0 !important;
+}
+.fancy-tab{}
+.fancy-tab .ant-tabs .ant-tabs-left-bar .ant-tabs-tab {
+    text-align: left;
+}
+.fancy-tab .ant-tabs .ant-tabs-left-bar {
+    /* border-right: transparent; */
+    margin:-1px 0 0 -1px;
+}
+.fancy-tab .ant-tabs 
+.ant-tabs-left-bar 
+.ant-tabs-tab {
+    width:auto;
+    min-width:14rem;
+    border-right: transparent !important;
+}
+.fancy-tab .ant-tabs 
+.ant-tabs-left-bar 
+.ant-tabs-tab:first-child {
+    border-top: 0 !important;
+}
+.ant-tabs .ant-tabs-left-content {
+    border-left: transparent;
+}
+.fancy-tab .ant-tabs-vertical.ant-tabs-card.ant-tabs-left 
+.ant-tabs-card-bar.ant-tabs-left-bar 
+.ant-tabs-tab-active{
+  position:relative;
+    border-left: none;
+    /* border-left: 4px solid #5c6ac4; */
+    padding-bottom:1rem !important;
+    padding-top:1rem;
+    margin: 0 -1px;
+    margin-bottom: 0 !important;
+    border-bottom: none;
+    border-radius: 0;
+    height:auto;
+    border-right: 1px solid #fff;
+}
+.fancy-tab .ant-tabs-vertical.ant-tabs-card.ant-tabs-left 
+.ant-tabs-card-bar.ant-tabs-left-bar 
+.ant-tabs-tab-active:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: .3rem;
+    background: #5c6ac4;
+    opacity: 1;
+}
+.fancy-tab .ant-tabs-vertical.ant-tabs-card.ant-tabs-left .ant-tabs-card-bar.ant-tabs-left-bar .ant-tabs-tab {
+    padding-bottom:1rem !important;
+    padding-top:1rem;
+    margin-bottom: 0 !important;
+    border-bottom: none;
+    border-radius: 0;
+    height:auto;
+}
